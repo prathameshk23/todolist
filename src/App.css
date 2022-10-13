@@ -27,6 +27,7 @@ form button {
   border: none;
   background: white;
 }
+
 form button {
   color: #ed3734;
   background: #f7fffe;
@@ -39,13 +40,21 @@ form button:hover {
 }
 .todo-container {
   display: flex;
+  width: 550px;
+  margin-left: 675px;
+  margin-top: 20px;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); -webkit-backdrop-filter: blur (20px); backdrop-filter: blur (20px); border: 1px solig rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 30px;
+  
 }
 
 .todo-list {
   min-width: 30%;
   list-style: none;
+  /* margin-bottom: 15px; */
 }
 
 .todo {
@@ -57,6 +66,8 @@ form button:hover {
   justify-content: space-between;
   align-items: center;
   transition: all 1s ease;
+  width: 350px;
+  margin: 15px;
 }
 
 
@@ -94,5 +105,7 @@ form button:hover {
   text-decoration: line-through;
   opacity: 0.5;
 }
+
+
 
 

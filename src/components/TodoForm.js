@@ -17,7 +17,7 @@ export default function TodoForm({InputText,setInputText,Todos,setTodos}) {
         setInputText('')
     }
   return (
-    <div>
+    <div className='container'>
     <form>
       <input value={InputText} type="text" onChange={InputTextHandler} className="todo-input" />
       <button className="todo-button" type="submit" onClick={submitHandler}>
